@@ -11,6 +11,8 @@ package:
 source:
   url: http://photospp.web.cern.ch/photospp/resources/PHOTOS.${{ version }}/PHOTOS.${{ version }}-LHC.tar.gz
   sha256: cb4096b4804289fc4d54a992caa566cbbd33f41f65f8906deb01200dc5163027
+  patches:
+    - 0001-Fix-linking-HepMC-and-HepMC3.patch
 
 build:
   number: 1
