@@ -22,6 +22,7 @@ requirements:
     - ${{ compiler('cxx') }}
     - make
     - autoconf
+    - automake
     - pkg-config
   host:
     - hepmc2
