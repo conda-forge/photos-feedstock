@@ -10,7 +10,7 @@ package:
 
 source:
   url: http://photospp.web.cern.ch/photospp/resources/PHOTOS.${{ version }}/PHOTOS.${{ version }}-LHC.tar.gz
-  sha256: 6ede97d46056b7a0c52f8984e7a904cf30e80b93478c3213233485f77eef0efd
+  sha256: cb4096b4804289fc4d54a992caa566cbbd33f41f65f8906deb01200dc5163027
 
 build:
   number: 1
