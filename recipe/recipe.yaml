@@ -24,7 +24,9 @@ requirements:
     - make
     - autoconf
     - automake
-    - gnuconfig  # [unix]
+    - libtool
+    - if: unix
+      then: gnuconfig
     - pkg-config
   host:
     - hepmc2
