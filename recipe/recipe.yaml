@@ -18,11 +18,13 @@ build:
 
 requirements:
   build:
+    - ${{ stdlib("c") }}
     - ${{ compiler('c') }}
     - ${{ compiler('cxx') }}
     - make
     - autoconf
     - automake
+    - gnuconfig  # [unix]
     - pkg-config
   host:
     - hepmc2
